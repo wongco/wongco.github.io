@@ -1,0 +1,8 @@
+/* BootStrap Style Overrides */
+.navbar-shading {
+  opacity: 0.4;
+}
+
+.bg-black {
+  background: black;
+}
