@@ -1,8 +1,49 @@
 /* BootStrap Style Overrides */
+
+/* ----------------
+       Navbar
+---------------- */
+
 .navbar-shading {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-.bg-black {
+/* ----------------
+      Main Image
+---------------- */
+
+.main-image__background-color {
   background: black;
+}
+
+/* ----------------
+      Portfolio
+---------------- */
+
+/* .projects {
+  font-family: Helvetica, sans-serif, Arial;
+} */
+
+/* .projects__background-color {
+  background: #343a40;
+} */
+
+/* ----------------
+      About
+---------------- */
+
+/* .about__background-color {
+  background: rgb(235, 209, 146);
+} */
+
+.about__paragraph-line-height {
+  line-height: 1.75;
+}
+
+/* ----------------
+      Contact
+---------------- */
+
+.contact__background-color {
+  background: rgb(247, 240, 229);
 }
