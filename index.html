@@ -8,28 +8,32 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="bg-dark">
     <!-- Navbar -->
-    <navbar class="navbar navbar-expand-lg navbar-dark bg-dark navbar-shading fixed-top">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-content">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">WongCo</a>
-      <div class="collapse navbar-collapse" id="collapsed-content">
-        <div class="navbar-nav">
-          <a href="#" class="nav-item nav-link mr-3">Home</a>
-          <a href="#about" class="nav-item nav-link mr-3">About</a>
-          <a href="#projects" class="nav-item nav-link mr-3">Projects</a>
-          <a href="#contact" class="nav-item nav-link mr-3">Contact</a>
-        </div>
+    <div class="container">
+      <div class="row">
+        <navbar class="mx-auto col navbar navbar-expand-lg navbar-dark bg-dark navbar-shading">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-content">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">WongCo</a>
+          <div class="collapse navbar-collapse" id="collapsed-content">
+            <div class="navbar-nav">
+              <a href="#" class="nav-item nav-link mr-3">Home</a>
+              <a href="#about" class="nav-item nav-link mr-3">About</a>
+              <a href="#projects" class="nav-item nav-link mr-3">Projects</a>
+              <a href="#contact" class="nav-item nav-link mr-3">Contact</a>
+            </div>
+          </div>
+        </navbar>
       </div>
-    </navbar>
+    </div>
   </header>
 
   <!-- Main Img Section -->
   <div class="container-fluid main-image">
     <div class="row text-center main-image__background-color">
-      <div class="col">
+      <div class="col mx-auto">
         <img class="img-fluid main-image_img" src="/pics/baybridge_banner.png" alt="photo of san francisco bay bridge at night">
       </div>
     </div>
@@ -44,27 +48,44 @@
       <span class="about__header-three text-dark">Responsive design.</span>
     </div>
     <div class="row">
-        <p class="mx-auto col-12 col-lg-8 lead">My approach to software engineering: Behind every problem is an elegant solution waiting to be created.</p>
+        <p class="mx-auto col-6 h4 py-3">Behind every problem is an elegant solution waiting to be created.</p>
     </div>
     <div class="row">
-        <p class="mx-auto col-12 col-lg-6 text-justify about__paragraph-line-height">
+        <p class="mx-auto col-6 text-justify about__paragraph-line-height">
           Having crafted solutions as a Systems Admin/Engineer,  I firmly believe in the ability of technology to bring people together and address both societal and business challenges. I now take that same passion for solving problems to full stack web development.
         </p>
     </div>
   </div>
 
   <!-- Projects -->
-  <div class="container-fluid projects text-center about__background-color py-5" id="projects">
-    Projects
-  </div>
+  <!-- <div class="container-fluid projects text-center about__background-color" id="projects">
+    <div class="row">
+      <div class="col bg-secondary py-5">
+        <div class="project-one mx-auto d-flex align-items-center">
+          <i class="fab fa-chrome fa-5x mx-auto"></i>
+        </div>
+      </div>
+      <div class="col bg-secondary py-5">
+        <div class="project-one mx-auto d-flex align-items-center">
+          <i class="fab fa-firefox fa-5x mx-auto"></i>
+        </div>
+      </div>
+      <div class="col bg-secondary py-5">
+        <div class="project-one mx-auto d-flex align-items-center">
+          <i class="fab fa-edge fa-5x mx-auto"></i>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
   <!-- Contact -->
   <div class="container-fluid contact text-center contact__background-color py-3"id="contact">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center d-flex align-items-center">
         <div><a href="mailto:gin@wongcofood.com"><i class="px-3 far fa-envelope fa-2x text-dark"></i></a></div>
         <div><a href="https://wongco.github.io/wongcoblog/"><i class="px-3 fas fa-pen-square fa-2x text-dark"></i></a></div>
         <div><a href="https://github.com/wongco"><i class="px-3 fab fa-github fa-2x text-dark"></i></a></div>
         <div><a href="#"><i class="px-3 fab fa-linkedin fa-2x text-dark"></i></a></div>
+        <div><a href="#" class="ml-5 py-auto btn btn-dark">Resume</a></div>
       </div>
   </div>
 

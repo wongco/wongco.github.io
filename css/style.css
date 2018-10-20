@@ -28,6 +28,13 @@
   background: #343a40;
 } */
 
+.project-one {
+  height: 300px;
+  width: 300px;
+  border: 5px solid rgb(205, 180, 140);
+  border-radius: 20%;
+}
+
 /* ----------------
       About
 ---------------- */
@@ -61,7 +68,6 @@
     color: #343a40;
   }
   50%,
-  75%,
   100% {
     color: white;
   }
@@ -69,7 +75,6 @@
 
 @keyframes fade3 {
   0%,
-  25%,
   50% {
     color: #343a40;
   }
@@ -88,5 +93,6 @@
 ---------------- */
 
 .contact__background-color {
-  background: rgb(247, 240, 229);
+  /* background: rgb(247, 240, 229); */
+  background: rgb(205, 180, 140);
 }
