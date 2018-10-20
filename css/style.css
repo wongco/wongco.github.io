@@ -33,74 +33,51 @@
 ---------------- */
 
 .about__header-one {
-  animation: fade 5s infinite;
+  animation: fade 7s 1 forwards;
 }
 
 .about__header-two {
-  animation: fade2 5s infinite;
+  animation: fade2 7s 1 forwards;
 }
 
 .about__header-three {
-  animation: fade3 5s infinite;
+  animation: fade3 7s 1 forwards;
 }
 
 @keyframes fade {
-  0% {
+  0%,
+  5% {
     color: #343a40;
   }
-  25% {
-    color: white;
-  }
-  50% {
-    color: white;
-  }
-  75% {
-    color: white;
-  }
+  25%,
   100% {
-    color: #343a40;
+    color: white;
   }
 }
 
 @keyframes fade2 {
-  0% {
-    color: #343a40;
-  }
+  0%,
   25% {
     color: #343a40;
   }
-  50% {
-    color: white;
-  }
-  75% {
-    color: white;
-  }
+  50%,
+  75%,
   100% {
-    color: #343a40;
+    color: white;
   }
 }
 
 @keyframes fade3 {
-  0% {
-    color: #343a40;
-  }
-  25% {
-    color: #343a40;
-  }
+  0%,
+  25%,
   50% {
     color: #343a40;
   }
-  75% {
+  75%,
+  100% {
     color: white;
   }
-  100% {
-    color: #343a40;
-  }
 }
-
-/* .about__background-color {
-  background: rgb(235, 209, 146);
-} */
 
 .about__paragraph-line-height {
   line-height: 1.75;
