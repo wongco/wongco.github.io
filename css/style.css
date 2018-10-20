@@ -32,6 +32,72 @@
       About
 ---------------- */
 
+.about__header-one {
+  animation: fade 5s infinite;
+}
+
+.about__header-two {
+  animation: fade2 5s infinite;
+}
+
+.about__header-three {
+  animation: fade3 5s infinite;
+}
+
+@keyframes fade {
+  0% {
+    color: #343a40;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: #343a40;
+  }
+}
+
+@keyframes fade2 {
+  0% {
+    color: #343a40;
+  }
+  25% {
+    color: #343a40;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: #343a40;
+  }
+}
+
+@keyframes fade3 {
+  0% {
+    color: #343a40;
+  }
+  25% {
+    color: #343a40;
+  }
+  50% {
+    color: #343a40;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: #343a40;
+  }
+}
+
 /* .about__background-color {
   background: rgb(235, 209, 146);
 } */
