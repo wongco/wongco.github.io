@@ -1,4 +1,7 @@
 /* BootStrap Style Overrides */
+/* ----------------
+       Body
+---------------- */
 
 /* ----------------
        Navbar
@@ -23,19 +26,6 @@
 /* .projects {
   font-family: Helvetica, sans-serif, Arial;
 } */
-
-/* .projects__background-color {
-  background: #343a40;
-} */
-.projects {
-  /* background-color: red; */
-}
-
-.project--frame {
-  height: 300px;
-  width: 300px;
-  /* background-color: teal; */
-}
 
 .project--image,
 .project--image:visited {
@@ -132,4 +122,12 @@ a.projects:visited {
 
 .contact a:hover {
   color: grey;
+}
+
+.button--contact {
+  background-color: #343a40;
+}
+
+.button--contact:hover {
+  background-color: grey;
 }
