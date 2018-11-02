@@ -27,12 +27,41 @@
 /* .projects__background-color {
   background: #343a40;
 } */
+.projects {
+  /* background-color: red; */
+}
 
-.project-one {
+.project--frame {
   height: 300px;
   width: 300px;
-  border: 5px solid rgb(205, 180, 140);
-  border-radius: 20%;
+  /* background-color: teal; */
+}
+
+.project--image,
+.project--image:visited {
+  height: 200px;
+  width: 200px;
+  border: 5px solid gray;
+  border-radius: 10px;
+}
+
+.project--image:hover {
+  border: 5px solid rgba(255, 255, 255, 0.76);
+}
+
+.project--link,
+.project--link:visited {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.project--link:hover {
+  color: white;
+}
+
+a.projects,
+a.projects:hover,
+a.projects:visited {
+  text-decoration: none;
 }
 
 /* ----------------
